@@ -22,7 +22,7 @@ These instructions will help you get the project running on your local machine.
 1. Clone the repository:
 
 ```
-git clone <your-repo-url>
+git clone https://github.com/Verssax/telnyx-cypress-tests
 ```
 > **Note** The project will be cloned into whichever folder your terminal is currently pointed at. Navigate to your desired location first using `cd`.
 
