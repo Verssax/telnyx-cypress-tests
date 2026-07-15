@@ -1,0 +1,18 @@
+{
+  "name": "telnyx-cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:headless": "cypress run --headless",
+    "test:chrome": "cypress run --browser chrome --headless",
+    "test:record": "cypress run --record",
+    "report": "cypress run --headless"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "cypress": "^15.18.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
